@@ -5,7 +5,7 @@
 <img src="https://dsn2024uq.github.io/images/dsn2024_artifact.png" alt="Code and data reproduced" width="600">
 </p>
 
-
+<a href="https://doi.org/10.5281/zenodo.11165221"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.11165221.svg" alt="DOI"></a>
 [![Academic Code](https://img.shields.io/badge/Origin-Academic%20Code-C1ACA0.svg?style=flat)]() [![Language Badge](https://img.shields.io/badge/Made%20with-C/C++-blue.svg)](https://isocpp.org/std/the-standard) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![contributions welcome](https://img.shields.io/badge/Contributions-welcome-lightgray.svg?style=flat)]() [![Preprint: arXiv](https://img.shields.io/badge/cs.AR-2405.06081-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/pdf/2405.06081.pdf) 
 
 This repository provides the source code of our [DSN'24 paper](https://arxiv.org/pdf/2405.06081.pdf):
@@ -84,7 +84,7 @@ After all experiments are done, you will see the following output:
 ```
 ### Step 3
 
-Reproducing figures from existing characterization data. All experimental data presented in the paper is in our Zenodo repository. Extract dsn_artifact.zip and move the experimental_data directory to this repo's experimental_data directory.
+Reproducing figures from existing characterization data. All experimental data presented in the paper is in our [Zenodo repository](https://doi.org/10.5281/zenodo.11165221). Extract dsn_artifact.zip and move the experimental_data directory to this repo's experimental_data directory.
 
 Use the `analysis/plot_all_results.py` Python script to reproduce figures with existing characterization results and the newly generated characterization results.
 
